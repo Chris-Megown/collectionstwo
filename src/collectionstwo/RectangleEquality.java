@@ -4,8 +4,8 @@ public class RectangleEquality {
 
 	public static void main(String[] args) {
 
-		Rectangle firstRectangle = new Rectangle(10, 10);
-		Rectangle secondRectangle = new Rectangle(10, 10);
+		Rectangle firstRectangle = new Rectangle(10, 14);
+		Rectangle secondRectangle = new Rectangle(10, 17);
 
 		Object asObject = firstRectangle;
 		System.out.println("Is an Rectangle?" + (asObject instanceof Rectangle));
